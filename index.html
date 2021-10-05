@@ -5,7 +5,7 @@
     <!-- Required meta tags -->
     <meta charset="utf-8" />
     <meta
-      name="viewport"
+    name="viewport"
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
 
@@ -17,27 +17,33 @@
       crossorigin="anonymous"
     />
     <link href="/css/site.css" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="/css/print.css" media="print">
   </head>
   <body>
-    <div class="container">
+    <div class="container-fluid border m-lg-2 p-3">
       <!--print this page button-->
-      <div class="row col-12">
-        <form >
-          <input class="bg-dark text-light align-content-end"
+      <div class="row">
+        <form class=" d-flex justify-content-end">
+          <input class="bg-dark text-light"
             type="button"
             value="Print this page"
             onClick="window.print(); return false;"
           />
         </form>
-      </div>
-    </div class="row col-12">
-    <div class="col align-content-start"> 
-        <img src="/img/IdeaFoundryLogo.png" alt text="Idea Foundry Logo" />
-      </div>
-      <div class="col align-content-end">
+        </div>
+      </div class="print">
+    </div class="row">
+    <div class="col">
+      <img src="/img/IdeaFoundryLogo.png" alt="Idea Foundry Logo">
+    </div>
+            
+    </div>
+      <div class="d-flex justify-content-end">
         Client No. 4908
       </div>
       </div>
+      </div>
+      <div class="row">
       <table class="table table table-bordered">
         <thead>
           <tr>
@@ -91,6 +97,7 @@
           </tr>
         </tbody>
       </table>
+    </div>
     </div>
 
     <!-- Bootstrap JS -->
