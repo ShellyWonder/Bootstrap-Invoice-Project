@@ -20,6 +20,16 @@
   </head>
   <body>
     <div class="container">
+      <!--print this page button-->
+      <div class="row col-12">
+        <form>
+          <input
+            type="button"
+            value="Print this page"
+            onClick="window.print(); return false;"
+          />
+        </form>
+      </div>
       <table class="table table table-bordered">
         <thead>
           <tr>
@@ -53,28 +63,20 @@
             <td>$450.00</td>
           </tr>
           <tr>
-            <td>Sub Total:</td>
-            <td></td>
-            <td></td>
-            <td></td>
+            <td colspan="4">Sub Total:</td>
             <td>$2,550.00</td>
           </tr>
           <tr>
-            <td>Tax:</td>
-            <td></td>
-            <td></td>
-            <td></td>
+            <td colspan="4">Tax:</td>
+
             <td>$00.00</td>
           </tr>
           <tr>
-            <td>Total:</td>
-            <td></td>
-            <td></td>
-            <td></td>
+            <td colspan="4">Total:</td>
             <td>$2,550.00</td>
           </tr>
           <tr>
-            <td>
+            <td colspan="5">
               Note: This is a computer generated receipt and does not require a
               physical signature.
             </td>
