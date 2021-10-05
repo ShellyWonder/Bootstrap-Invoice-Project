@@ -5,7 +5,7 @@
     <!-- Required meta tags -->
     <meta charset="utf-8" />
     <meta
-    name="viewport"
+      name="viewport"
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
 
@@ -17,104 +17,136 @@
       crossorigin="anonymous"
     />
     <link href="/css/site.css" rel="stylesheet" />
-    <link rel="stylesheet" type="text/css" href="/css/print.css" media="print">
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="/css/print.css"
+      media="print"
+    />
   </head>
   <body>
     <div class="container rounded p-2 border border-1">
       <!--print this page button-->
-      <div class="d-flex">
-        <div class="col d-flex justify-content-end">
-         
-           <button type="button" class="btn btn-dark text-light" onClick="window.print(); return false;">Print this page</button>
-          </button>
-        </div>
-        </div>
-      </div class="print">
-    <div class="row p-4">
-    <div class="col">
-      <img src="/img/IdeaFoundryLogo.png" alt="Idea Foundry Logo">
+      <div class="d-flex justify-content-end mt-3">
+        <button
+          type="button"
+          class="btn btn-dark text-light"
+          onClick="window.print();"
+        >
+          Print this page
+        </button>
+      </div>
     </div>
-    <div class="col d-flex justify-content-end p-3">
-      <strong>Client No. 4908</strong>
+    <div class="print">
+      <div class="row align-items-center p-4">
+        <div class="col-sm-7 d-flex justify-content-start">
+          <img
+            src="/img/IdeaFoundryLogo.png"
+            title="Idea Foundry Logo"
+            alt="Idea Foundry Logo"
+          />
+        </div>
+        <div
+          class="
+            col-sm-5
+            d-flex
+            justify-content-sm-end justify-content-start
+            mt-3
+          "
+        >
+          <strong>Customer:</strong>&nbsp;4908
+        </div>
       </div>
-      </div>
-    <div class="row border border-top border-bottom p-2">
-      <div class="col">
-        <strong>Date:</strong>&nbsp 05.01.2021
-      </div>
-      <div class="col d-flex justify-content-end">
-        <strong>Invoice No:</strong>&nbsp 19005
-      </div>
+
+      <div
+        class="row row-cols-1 row-cols-sm-2 border border-top border-bottom p-2"
+      >
+        <div class="col-sm-6 d-flex justify-content-start">
+          <strong>Date:</strong>&nbsp;10.01.2021
+        </div>
+        <div
+          class="col-sm-6 d-flex justify-content-sm-end justify-content-start"
+        >
+          <strong>Invoice No:</strong>&nbsp;19005
+        </div>
       </div>
       <div class="row border border-bottom p-2">
-        <div class="col">
-          <strong>Invoice To:&nbsp</strong><br>
-          Mark Davis <br>
-          3333 Al Davis Way<br>
-          Las Vegas, NV 89118<br>
+        <div class="col d-flex justify-content-start">
+          <div>
+            <strong>Invoice To:&nbsp</strong><br />
+            <address>
+              Mark Davis <br />
+              3333 Al Davis Way<br />
+              Las Vegas, NV 89118<br />
+            </address>
+          </div>
         </div>
         <div class="col d-flex justify-content-end">
-          <strong>Pay To:</strong><br>
-          Idea Foundry, Inc <br>
-          2705 N. Enterprise Street<br>
-          Kernsville, NC 27284<br>
+          <div>
+            <strong>Pay To:</strong><br />
+            <address>
+              Idea Foundry, Inc <br />
+              2705 N. Enterprise Street<br />
+              Kernsville, NC 27284<br />
+            </address>
+          </div>
         </div>
-        </div>
+      </div>
       <div class="row p-2">
-      <table class="table table table-bordered">
-        <thead>
-          <tr>
-            <th scope="col">Service</th>
-            <th scope="col">Description</th>
-            <th scope="col">Rate</th>
-            <th scope="col">QTY</th>
-            <th scope="col">Amount</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr class="table-secondary">
-            <td>Design</td>
-            <td>Website Design</td>
-            <td>$60.00</td>
-            <td>10</td>
-            <td>$600.00</td>
-          </tr>
-          <tr>
-            <td>Development</td>
-            <td>Website Development</td>
-            <td>$150.00</td>
-            <td>10</td>
-            <td>$1,500.00</td>
-          </tr>
-          <tr class="table-secondary">
-            <td>Deployment</td>
-            <td>Deployment and Hosting</td>
-            <td>$450.00</td>
-            <td>1</td>
-            <td>$450.00</td>
-          </tr>
-          <tr>
-            <td colspan="4">Sub Total:</td>
-            <td>$2,550.00</td>
-          </tr>
-          <tr>
-            <td colspan="4">Tax:</td>
+        <table class="table table table-bordered">
+          <thead>
+            <tr>
+              <th scope="col">Service</th>
+              <th scope="col">Description</th>
+              <th scope="col">Rate</th>
+              <th scope="col">QTY</th>
+              <th scope="col">Amount</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="table-secondary">
+              <td>Design</td>
+              <td>Website Design</td>
+              <td>$60.00</td>
+              <td>10</td>
+              <td>$600.00</td>
+            </tr>
+            <tr>
+              <td>Development</td>
+              <td>Website Development</td>
+              <td>$150.00</td>
+              <td>10</td>
+              <td>$1,500.00</td>
+            </tr>
+            <tr class="table-secondary">
+              <td>Deployment</td>
+              <td>Deployment and Hosting</td>
+              <td>$450.00</td>
+              <td>1</td>
+              <td>$450.00</td>
+            </tr>
+            <tr>
+              <td colspan="4">Sub Total:</td>
+              <td>$2,550.00</td>
+            </tr>
+            <tr>
+              <td colspan="4">Tax:</td>
 
-            <td>$00.00</td>
-          </tr>
-          <tr>
-            <td colspan="4">Total:</td>
-            <td>$2,550.00</td>
-          </tr>
-          <tr>
-            <td colspan="5">
-              <strong>Note:</strong> This is a computer generated receipt and does not require a
-              physical signature.
-            </td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
+              <td>$00.00</td>
+            </tr>
+            <tr>
+              <td colspan="4">Total:</td>
+              <td>$2,550.00</td>
+            </tr>
+            <tr>
+              <td colspan="5">
+                <strong>Note:</strong> This is a computer generated receipt and
+                does not require a physical signature.
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
     </div>
 
     <!-- Bootstrap JS -->
